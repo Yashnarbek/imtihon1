@@ -1,0 +1,203 @@
+html{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+@mixin ul-style($none, $margin, $padding){
+    list-style-type: $none;
+    margin: $margin;
+    padding: $padding;
+}
+.container{
+    position: relative;
+    z-index: 20;
+    background-color: #fff;
+    padding: 0px;
+    margin-top: 15px;
+    header{
+        padding: 0px;
+        margin-left: auto;
+        margin-right: auto;
+        width: 1400px;
+    }
+        .header-in{
+            height: 80px;
+            padding: 0px;
+            background-color: #fff;
+            margin: 0px 120px;
+            display: flex;
+            align-items: center;
+            button{
+                &:hover{
+                    opacity: 0.5;
+                }
+                margin: 0px;
+                padding: 20px;
+                border-radius: 25px;
+                background: linear-gradient(135deg, #33D35E 0%, #2AB6D9 99.58%);
+                color: #e2e3ec;
+                border-radius: 35px;
+                border: none;
+                outline: none;
+            }
+        }
+}
+nav{
+    margin-left: auto;
+    margin-right: auto;
+    ul{
+        padding: 0px;
+        display: flex;
+        list-style-type: none;
+        a{
+            display: inline-block;
+            text-decoration: none;
+            
+        }
+        li{
+            display: flex;
+            align-items: center;
+            margin: 0px;
+            height: 80px;
+            font-size: 18px;
+            font-weight: normal;
+            color: #9597A5;
+            margin-right: 20px;
+            &:hover{
+                border-bottom: #2D314D solid 3px;
+                opacity: 0.4;
+            }
+        } 
+    }   
+}
+main{
+    padding: 10px;
+    width: 1400px;
+    margin-left: auto;
+    margin-right: auto;
+    .digital-banking{
+        background: #F2F2F2;
+        img{
+            margin-top: -50px;
+            width: 600px;
+            right: -40px;
+        }
+        .banking{
+     
+            h1{
+                font-size: 56px;
+                font-weight: 100;
+                color: #2D314D;
+            }
+            a{
+                text-decoration: none;
+
+            }
+            margin-top: 100px;
+            margin-left: auto;
+            width: 650px;
+            display: flex;
+            flex-direction: column;
+        }
+        button{
+            p{
+                padding: 0%;
+                margin: 0;
+                font-size: 15px;
+            }
+            &:hover{
+                opacity: 0.5;
+            }
+            width:180px;
+            margin: 50px 0px;
+            padding: 15px;
+            border-radius: 25px;
+            background: linear-gradient(135deg, #33D35E 0%, #2AB6D9 99.58%);
+            color: #e2e3ec;
+            border-radius: 35px;
+            border: none;
+            outline: none;
+        }
+
+        width: 1400px;
+        display: flex;
+    }
+    .easybank{
+       
+        padding: 10px;
+        margin-top: -70px;
+        background-color: #F4F5F7;
+        h1{
+            font-weight: 100;
+            font-size: 40px;
+            margin-top: 20px;
+            margin-left: 120px;
+        }
+        a{
+            margin-top: 20px;
+            margin-left: 120px;
+            display: inline-block;
+            font-size: 18px;
+            color: #9597A5;
+            width: 630px;
+            text-decoration: none;
+        }
+        ul{
+            li{
+                img{
+                    margin-left: 40px;
+                }
+                h3{
+                    margin-left: 40px;
+                    color: #9597A5;
+                }
+                a{
+                    display: inline-block;
+                    margin: 0px 40px;
+                    width: 270px;
+                    height: 200px;
+                    color: #9597A5;
+                }
+                width: 290px;
+                height:350px;
+           
+            }
+            @include ul-style(none, o, o);
+            display: flex;
+            flex-wrap: wrap;
+            margin-left: 50px;
+        }
+    }
+    .ads{
+        background: #F2F2F2;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: -30px;
+        width: 1400px;
+        h1{
+            font-weight: 100;
+            margin-left: 40px;
+        }
+        ul{
+            display: flex;
+            justify-content: center;
+            li{
+                padding: 15px;
+                margin: 10px;
+                margin-left: -15px;
+                img{
+                    width: 300px;
+                }
+                a{
+                    text-decoration: none
+                }
+                @include ul-style(none, o, o);
+                width: 310x;
+                color: #9597A5;
+            }
+        }
+    }
+}
+@media only screen and (max-width: 600px) {
+    
+}

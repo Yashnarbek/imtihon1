@@ -1,0 +1,350 @@
+html {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: 'Public Sans', sans-serif;
+}
+
+.container {
+  position: relative;
+  z-index: 20;
+  background-color: #fff;
+  padding: 0px;
+  margin-top: 15px;
+}
+.container header {
+  padding: 0px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 1400px;
+}
+.container .header-in {
+  height: 80px;
+  padding: 0px;
+  background-color: #fff;
+  margin: 0px 120px;
+  display: flex;
+  align-items: center;
+}
+.container .header-in button {
+  margin: 0px;
+  padding: 20px;
+  border-radius: 25px;
+  background: linear-gradient(135deg, #33D35E 0%, #2AB6D9 99.58%);
+  color: #e2e3ec;
+  border-radius: 35px;
+  border: none;
+  outline: none;
+}
+.container .header-in button:hover {
+  opacity: 0.5;
+}
+
+nav {
+  margin-left: auto;
+  margin-right: auto;
+}
+nav ul {
+  padding: 0px;
+  display: flex;
+  list-style-type: none;
+}
+nav ul a {
+  display: inline-block;
+  text-decoration: none;
+}
+nav ul li {
+  display: flex;
+  align-items: center;
+  margin: 0px;
+  height: 80px;
+  font-size: 18px;
+  font-weight: normal;
+  color: #9597A5;
+  margin-right: 20px;
+}
+nav ul li:hover {
+  border-bottom: #2D314D solid 3px;
+  opacity: 0.4;
+}
+
+main {
+  padding: 10px;
+  width: 1400px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: -20px;
+}
+main .digital-banking {
+  background: #F2F2F2;
+  width: 1400px;
+  display: flex;
+}
+main .digital-banking img {
+  margin-top: -50px;
+  width: 600px;
+  right: -40px;
+}
+main .digital-banking .banking {
+  margin-top: 100px;
+  margin-left: auto;
+  width: 650px;
+  display: flex;
+  flex-direction: column;
+}
+main .digital-banking .banking h1 {
+  font-size: 56px;
+  font-weight: 100;
+  color: #2D314D;
+}
+main .digital-banking .banking a {
+  text-decoration: none;
+}
+main .digital-banking button {
+  width: 180px;
+  margin: 50px 0px;
+  padding: 15px;
+  border-radius: 25px;
+  background: linear-gradient(135deg, #33D35E 0%, #2AB6D9 99.58%);
+  color: #e2e3ec;
+  border-radius: 35px;
+  border: none;
+  outline: none;
+}
+main .digital-banking button p {
+  padding: 0%;
+  margin: 0;
+  font-size: 15px;
+}
+main .digital-banking button:hover {
+  opacity: 0.5;
+}
+main .easybank {
+  width: 1400px;
+  padding: 10px;
+  margin-top: -70px;
+  background-color: #F4F5F7;
+}
+main .easybank h1 {
+  font-weight: 100;
+  font-size: 40px;
+  margin-top: 20px;
+  margin-left: 120px;
+}
+main .easybank a {
+  margin-top: 20px;
+  margin-left: 120px;
+  display: inline-block;
+  font-size: 18px;
+  color: #9597A5;
+  width: 630px;
+  text-decoration: none;
+}
+main .easybank ul {
+  list-style-type: none;
+  margin: o;
+  padding: o;
+  display: flex;
+  flex-wrap: wrap;
+  margin-left: 50px;
+}
+main .easybank ul li {
+  width: 290px;
+  height: 350px;
+}
+main .easybank ul li img {
+  margin-left: 40px;
+}
+main .easybank ul li h3 {
+  margin-left: 40px;
+  color: #9597A5;
+}
+main .easybank ul li a {
+  display: inline-block;
+  margin: 0px 40px;
+  width: 270px;
+  height: 200px;
+  color: #9597A5;
+}
+main .ads {
+  background: #F2F2F2;
+  margin-top: -60px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 1400px;
+}
+main .ads h1 {
+  font-weight: 100;
+  margin-left: 40px;
+}
+main .ads ul {
+  display: flex;
+  justify-content: center;
+}
+main .ads ul li {
+  padding: 15px;
+  margin: 10px;
+  margin-left: -15px;
+  list-style-type: none;
+  margin: o;
+  padding: o;
+  width: 310x;
+  color: #9597A5;
+}
+main .ads ul li img {
+  width: 300px;
+}
+main .ads ul li a {
+  text-decoration: none;
+}
+html {
+	box-sizing: border-box;
+}
+
+body {
+	margin: 0;
+	padding: 0;
+}
+
+*  {
+	box-sizing: inherit;
+}
+
+footer {
+	background: #2D314D;
+	height: 192px;
+	display: flex;
+	align-items: center;
+}
+
+.footer-container {
+	width: 1110px;
+	height: 95px;
+	display: flex;
+	margin-right: auto;
+	margin-left: auto;
+}
+
+footer ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+}
+
+footer a {
+	text-decoration: none;
+}
+
+.footer-div1 {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	margin-right: 131px;
+}
+
+.footer-ul1 {
+	display: flex;
+	margin: 0;
+	padding: 0;
+}
+
+.footer-ul1 li {
+	margin: 0;
+	padding: 0;
+	margin-right: 13.4px;
+}
+
+.footer-ul2 li a {
+	font-weight: normal;
+	font-size: 15px;
+	line-height: 26px;
+	letter-spacing: -0.234375px;
+	color: #FFFFFF;
+}
+
+.footer-ul2 li {
+	margin: 1px 0 8px 0;
+}
+
+.footer-ul3 li {
+	margin: 1px 0 8px 0;
+}
+
+.footer-ul2 {
+	margin-right: 131px;
+}
+
+.footer-ul3 {
+	margin-right: 300px;
+}
+
+.footer-ul3 li a {
+	font-weight: normal;
+	font-size: 15px;
+	line-height: 26px;
+	letter-spacing: -0.234375px;
+	color: #FFFFFF;
+}
+
+.footer-div2 {
+    width: 350px;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	align-items: flex-end;
+
+}
+
+footer button {
+	padding: 8px 36px;
+	background: linear-gradient(135deg, #33D35E 0%, #2AB6D9 99.58%);
+	border-radius: 22px;
+	outline: none;
+    width: 190px;
+}
+
+footer button p {
+	margin: 0;
+	padding: 0;
+	font-style: normal;
+	font-weight: 500;
+	font-size: 14px;
+	line-height: 28px;
+	color: #FFFFFF;
+}
+
+.footer-div2 p {
+	margin: 0;
+	padding: 0;
+	font-weight: normal;
+	font-size: 15px;
+	line-height: 26px;
+	letter-spacing: -0.234375px;
+	color: #FFFFFF;
+	mix-blend-mode: normal;
+	opacity: 0.5;
+}
+
+footer li:hover a {
+	color: #30C88F;
+}
+
+footer li:hover .footer-div1 li img {
+	fill: #30C88F;
+}
+
+footer button:hover {
+	
+	opacity: 0.4;
+}
+@media only screen and (max-width: 600px) {
+    main .digital-banking {
+        background: #F2F2F2;
+        width: 00px;
+        display: flex;
+        flex-wrap: wrap;
+      }
+}
+
+/*# sourceMappingURL=styles.css.map */
+
